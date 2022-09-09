@@ -12,7 +12,7 @@ body {
 #right {
     background-color: blueviolet;
     display: grid;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 30% 70%;
 }
 
 #left-side-bar {
