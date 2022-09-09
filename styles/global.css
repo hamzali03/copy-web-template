@@ -1,35 +1,53 @@
-:root {
-    --background: rgb(224, 234, 247);
-    --header-background: white;
-    --footer-background: rgb(243, 242, 242);
-}
-
 body {
-    height: 100vh;
-    font-family: 'Rubik', san-serif;
-    background: var(--background);
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-header {
-    position: sticky;
-    top: 0;
-    display: flex;
-    align-items: center;
-    background-color: var(--header-background);
+#center {
+    background-color: bisque;
+    display: grid;
+    grid-template-rows: 20% 20%;
 }
 
-main {
-    padding: 20px;
+#right {
+    background-color: blueviolet;
+    display: grid;
+    grid-template-rows: 20% 80%;
 }
 
-footer {
-    position: sticky;
-    bottom: 0;
-    padding: 7px 20px;
-    font-size: .8em;
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--footer-background);
+#left-side-bar {
+    background-color: brown;
+    display: grid;
+}
+
+#gigs {
+    background-color: aqua;
+}
+
+#services {
+    background-color: red;
+}
+
+#housing {
+    background-color: yellowgreen;
+}
+
+#jobs {
+    background-color: orange;
+}
+
+#search-results {
+    background-color: yellow;
+}
+
+#event-calender {
+    background-color: grey;
+}
+
+#location {
+    background-color: pink;
+}
+
+#portland {
+    background-color: royalblue;
 }
